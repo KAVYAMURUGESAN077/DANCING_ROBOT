@@ -149,8 +149,11 @@ body{
     0%{
         transform: rotate(0deg);
     }
-    100%{
+    50%{
         transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(0deg);
     }
 }
 
@@ -162,8 +165,11 @@ body{
     0%{
         transform: rotate(0deg);
     }
-    100%{
+    50%{
         transform: rotate(-20deg);
+    }
+    100%{
+        transform: rotate(0deg);
     }
 }
 
@@ -173,11 +179,14 @@ body{
 }
 
 @keyframes rarm {
-    from{
+    0%{
         transform: rotate(0deg);
     }
-    to{
+    50%{
         transform: rotate(90deg);
+    }
+    100%{
+         transform: rotate(0deg);
     }
 }
 
@@ -187,12 +196,16 @@ body{
 }
 
 @keyframes larm {
-    from{
+    0%{
         transform: rotate(0deg);
     }
-    to{
+    50%{
         transform: rotate(-90deg);
     }
+    100%{
+         transform: rotate(0deg);
+    }
+   
 }
 
 .main:hover .head{
@@ -200,11 +213,14 @@ body{
 }
 
 @keyframes width {
-    from{
+    0%{
         width: 200px;
     }
-    to{
+    50%{
         width: 250px;
+    }
+    100%{
+         width: 200px;
     }
 }
 
@@ -213,11 +229,14 @@ body{
 }
 
 @keyframes reye {
-    from{
+    0%{
         transform: translate(0px);
     }
-    to{
+    50%{
         transform: translate(-30px);
+    }
+    100%{
+         transform: translate(0px);
     }
 }
 
@@ -226,11 +245,14 @@ body{
 }
 
 @keyframes leye {
-    from{
+    0%{
         transform: translate(0px);
     }
-    to{
+    50%{
         transform: translate(-30px);
+    }
+    100%{
+        transform: translate(0px);
     }
 }
 .main:hover{
